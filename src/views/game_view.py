@@ -33,7 +33,7 @@ class GameView:
             self.tableData.append(row)
 
     def next_row(self):
-        if self.current_row < 5:
+        if self.current_row <= 5:
             self.current_row += 1
             self.current_column = 0
 

@@ -32,6 +32,9 @@ python3 -m venv venv
 
 # 2. Activate it
 source venv/bin/activate
+
+#3 Install requirements libraries
+pip install -r requirements.txt
 ```
 
 **On Windows:**
@@ -42,17 +45,12 @@ python -m venv venv
 
 # 2. Activate it
 .\venv\Scripts\activate
+
+#3 Install requirements libraries
+pip install -r requirements.txt
 ```
 
-### 2\. Install Dependencies
-
-With your virtual environment activated, install the only required package, **Pygame**:
-
-```bash
-pip install pygame
-```
-
-### 3\. Run the Game
+### 2\. Run the Game
 
 Once the dependencies are installed, you can run the game from the main project directory (the one containing `main.py` and the `assets` folder):
 
