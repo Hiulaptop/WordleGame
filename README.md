@@ -19,6 +19,7 @@ This is a clone of the popular Wordle game, built using Python and Pygame.
 
   * **Python 3.10** or newer.
   * **pip** (Python's package installer).
+  * Dowload words-list [here](https://github.com/Hiulaptop/WordleGame/blob/master/assets/words-list.txt) and add it in assets folder. 
 
 ### 1\. Set Up a Virtual Environment
 
